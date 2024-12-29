@@ -8,6 +8,10 @@ const GlobalStyles = createGlobalStyle`
     *, ::after, ::before {
         box-sizing: inherit;
     }
+
+    body {
+        font-family: "Inter", serif;
+    }
 `;
 
 export default GlobalStyles;
