@@ -1,12 +1,12 @@
+import myPhoto from "../../assets/images/myPhoto.jpeg";
+import Content from "./Content";
+import { StyledHeader, MyPhoto } from "./styled";
+
 const Header = () => (
-    <header>
-        <img></img>
-        <div>
-            <span>This is</span>
-            <h1>Tymoteusz Wójcik</h1>
-            <p>🤵🏻💻 I`m passionate Fontend Developer in love with React, currently looking for new job opportunities.</p>
-        </div>
-    </header>
+    <StyledHeader>
+        <MyPhoto src={myPhoto} alt="My Photo" />
+        <Content />
+    </StyledHeader>
 );
 
 export default Header;
