@@ -1,13 +1,35 @@
-const Section = () => (
-    <section>
-        <header>My skillset includes 🛠</header>
-        <ul>
-            <li>Semantic & accessible HTML</li>
-            <li>Responsive Web Design</li>
-            <li>Teamwork</li>
-            <li>Markdown</li>
-        </ul>
-    </section>
+import { StyledHeader, StyledSection, Title, List, Item } from "./styled";
+
+const Section = ({ title }) => (
+    <StyledSection>
+        <StyledHeader>
+            <Title>{title}</Title>
+        </StyledHeader>
+        <List>
+            <Item>Semantic & accessible HTML</Item>
+            <Item>Responsive Web Design</Item>
+            <Item>Teamwork</Item>
+            <Item>Markdown</Item>
+            <Item>Semantic & accessible HTML</Item>
+            <Item>Responsive Web Design</Item>
+            <Item>Teamwork</Item>
+            <Item>Markdown</Item>
+            <Item>Semantic & accessible HTML</Item>
+            <Item>Responsive Web Design</Item>
+            <Item>Teamwork</Item>
+            <Item>Markdown</Item>
+            <Item>Semantic & accessible HTML</Item>
+            <Item>Responsive Web Design</Item>
+            <Item>Teamwork</Item>
+            <Item>Markdown</Item>
+            <Item>Semantic & accessible HTML</Item>
+            <Item>Responsive Web Design</Item>
+            <Item>Teamwork</Item>
+            <Item>Markdown</Item>
+            <Item>Semantic & accessible HTML</Item>
+            <Item>Responsive Web Design</Item>
+        </List>
+    </StyledSection>
 );
 
 export default Section;

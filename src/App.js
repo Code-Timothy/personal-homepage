@@ -6,7 +6,9 @@ function App() {
   return (
     <Container>
       <Header />
-      <Section />
+      <Section
+        title="My skillset includes 🛠"
+      />
     </Container>
   );
 };
