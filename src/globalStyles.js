@@ -11,6 +11,7 @@ const GlobalStyles = createGlobalStyle`
 
     body {
         font-family: "Inter", serif;
+        background: ${({ theme }) => theme.color.whiteLilac};
     }
 `;
 
