@@ -5,7 +5,7 @@ export const Wrapper = styled.div`
 `;
 
 export const Subtitle = styled.h2`
-    color: ${({ theme }) => theme.color.mineShaft};
+    color: ${({ theme }) => theme.color.slateGray};
     font-weight: 700;
     font-size: 12px;
     text-transform: uppercase;
