@@ -1,29 +1,13 @@
+import { skills } from "./skillsArray";
 import { List, Item } from "../StyledList";
 
 const SkillsList = () => (
     <List>
-        <Item>Semantic & accessible HTML</Item>
-        <Item>Responsive Web Design</Item>
-        <Item>Teamwork</Item>
-        <Item>Markdown</Item>
-        <Item>Semantic & accessible HTML</Item>
-        <Item>Responsive Web Design</Item>
-        <Item>Teamwork</Item>
-        <Item>Markdown</Item>
-        <Item>Semantic & accessible HTML</Item>
-        <Item>Responsive Web Design</Item>
-        <Item>Teamwork</Item>
-        <Item>Markdown</Item>
-        <Item>Semantic & accessible HTML</Item>
-        <Item>Responsive Web Design</Item>
-        <Item>Teamwork</Item>
-        <Item>Markdown</Item>
-        <Item>Semantic & accessible HTML</Item>
-        <Item>Responsive Web Design</Item>
-        <Item>Teamwork</Item>
-        <Item>Markdown</Item>
-        <Item>Semantic & accessible HTML</Item>
-        <Item>Responsive Web Design</Item>
+        {skills.map((skill, index) => (
+            <Item key={index}>
+                {skill}
+            </Item>
+        ))}
     </List>
 );
 
