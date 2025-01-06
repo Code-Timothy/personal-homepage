@@ -1,3 +1,4 @@
+import Tiles from "./Tiles";
 import { Wrapper, StyledHeader, StyledGithubIcon, Title, Subtitle } from "./styled";
 
 const Projects = () => (
@@ -7,6 +8,7 @@ const Projects = () => (
             <Title>Portfolio</Title>
             <Subtitle>My recent projects</Subtitle>
         </StyledHeader>
+        <Tiles />
     </Wrapper>
 );
 
