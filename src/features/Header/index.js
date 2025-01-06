@@ -5,7 +5,11 @@ import { StyledHeader, MyPhoto } from "./styled";
 const Header = () => (
     <StyledHeader>
         <MyPhoto src={myPhoto} alt="My Photo" />
-        <Content />
+        <Content
+            title="Tymoteusz Wójcik"
+            subtitle="This is"
+            description="🤵🏻💻 I`m passionate Fontend Developer in love with React, currently looking for new job opportunities."
+        />
     </StyledHeader>
 );
 

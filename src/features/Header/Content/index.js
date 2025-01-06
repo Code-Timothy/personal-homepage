@@ -8,11 +8,11 @@ import {
     HireMeButton,
 } from "./styled";
 
-const Content = () => (
+const Content = ({ subtitle, title, description }) => (
     <Wrapper>
-        <Subtitle>This is</Subtitle>
-        <Title>Tymoteusz Wójcik</Title>
-        <AboutMe>🤵🏻💻 I`m passionate Fontend Developer in love with React, currently looking for new job opportunities.</AboutMe>
+        <Subtitle>{subtitle}</Subtitle>
+        <Title>{title}</Title>
+        <AboutMe>{description}</AboutMe>
         <ContactLink href="mailto:timmywojcik@gmail.com">
             <HireMeButton><HiOutlineEnvelope size={24} />Hire me</HireMeButton>
         </ContactLink>
