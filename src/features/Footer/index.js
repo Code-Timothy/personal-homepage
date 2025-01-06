@@ -1,4 +1,4 @@
-import Content from "../Header/Content";
+import Content from "../Content";
 
 const Footer = () => (
     <div>
