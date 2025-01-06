@@ -4,4 +4,5 @@ export const Container = styled.div`
     max-width: 1216px;
     margin: auto;
     color: ${({ theme }) => theme.color.mineShaft};
+    padding: 16px;
 `;
