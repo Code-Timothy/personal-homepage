@@ -24,4 +24,4 @@ const projectsSlice = createSlice({
 });
 
 export const { fetchProjectsRequest, fetchProjectsSuccess, fetchProjectsFailure } = projectsSlice.actions;
-export default projectsSlice.reducer;
+export const projectsReducer = projectsSlice.reducer;
