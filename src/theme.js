@@ -8,4 +8,7 @@ export const theme = {
         scienceBlue: "#0366D6",
         anakiwa: "#8CC2FF",
     },
+    breakpoint: {
+        mobile: 767,
+    },
 };
