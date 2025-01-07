@@ -5,20 +5,20 @@ const projectsSlice = createSlice({
     initialState: {
         projects: [],
         loading: false,
-        error: null,
+        error: false,
     },
     reducers: {
         fetchProjectsRequest: (state) => {
             state.loading = true;
-            state.error = null;
+            state.error = false;
         },
         fetchProjectsSuccess: (state, action) => {
             state.projects = action.payload;
             state.loading = false;
         },
-        fetchProjectsFailure: (state, action) => {
+        fetchProjectsFailure: (state) => {
             state.loading = false;
-            state.error = action.payload;
+            state.error = true;
         },
     },
 });
