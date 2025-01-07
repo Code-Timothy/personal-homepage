@@ -5,12 +5,23 @@ export const StyledHeader = styled.header`
     grid-template-columns: auto 1fr;
     gap: 72px;
     margin-top: 120px;
+
+    @media (max-width: ${({ theme }) => theme.breakpoint.mobile}px){
+        grid-template-columns: 1fr;
+        gap: 0;
+        margin-top: 0;
+    };
 `;
 
 export const MyPhoto = styled.img`
     width: 384px;
     height: 384px;
     border-radius: 50%;
+
+    @media (max-width: ${({ theme }) => theme.breakpoint.mobile}px){
+        width: 200px;
+        height: 200px;
+    };
 `;
 
 export const ContactLink = styled.a`
@@ -37,5 +48,5 @@ export const HireMeButton = styled.button`
         2px 2px 0px 0px ${({ theme }) => theme.color.anakiwa},
         -2px 2px 0px 0px ${({ theme }) => theme.color.anakiwa},
         2px -2px 0px 0px ${({ theme }) => theme.color.anakiwa};
-    }
+    };
 `;

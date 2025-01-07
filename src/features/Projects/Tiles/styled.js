@@ -6,6 +6,11 @@ export const Wrapper = styled.div`
     gap: 32px;
     margin-top: 24px;
     color: ${({ theme }) => theme.color.slateGray};
+
+    @media(max-width: ${({ theme }) => theme.breakpoint.mobile}px){
+        grid-template-columns: 1fr;
+        gap: 16px;
+    };
 `;
 
 export const StyledTile = styled.div`
@@ -15,12 +20,22 @@ export const StyledTile = styled.div`
     padding: 50px;
     font-size: 18px;
     border-radius: 4px;
+
+    @media (max-width: ${({ theme }) => theme.breakpoint.mobile}px){
+        padding: 24px;
+        font-size: 14px;
+        min-height: 230px;
+    };
 `;
 
 export const Title = styled.h3`
     color: ${({ theme }) => theme.color.scienceBlue};
     font-size: 24px;
     margin: 0 0 24px 0;
+
+    @media (max-width: ${({ theme }) => theme.breakpoint.mobile}px){
+        font-size: 16px;
+    };
 `;
 
 export const Description = styled.p`

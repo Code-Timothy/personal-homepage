@@ -10,6 +10,10 @@ export const Subtitle = styled.h2`
     font-size: 12px;
     text-transform: uppercase;
     margin-top: 64px;
+
+    @media (max-width: ${({ theme }) => theme.breakpoint.mobile}px){
+        margin-top: 16px;
+    };
 `;
 
 export const Title = styled.h1`
@@ -17,6 +21,11 @@ export const Title = styled.h1`
     font-weight: 900;
     font-size: 38px;
     margin: 12px 0 35px 0;
+
+    @media (max-width: ${({ theme }) => theme.breakpoint.mobile}px){
+        font-size: 22px;
+        margin: 8px 0 16px 0;
+    };
 `;
 
 export const AboutMe = styled.p`
@@ -24,4 +33,9 @@ export const AboutMe = styled.p`
     font-size: 20px;
     font-weight: 400;
     margin-bottom: 32px;
+
+    @media (max-width: ${({ theme }) => theme.breakpoint.mobile}px){
+        font-size: 17px;
+        margin-bottom: 24px;
+    };
 `;
