@@ -4,14 +4,11 @@ const projectsSlice = createSlice({
     name: "projects",
     initialState: {
         projects: [],
-        loading: false,
+        loading: true,
         error: false,
     },
     reducers: {
-        fetchProjectsRequest: (state) => {
-            state.loading = true;
-            state.error = false;
-        },
+        fetchProjectsRequest: () => { },
         fetchProjectsSuccess: (state, action) => {
             state.projects = action.payload;
             state.loading = false;
@@ -27,4 +24,6 @@ export const { fetchProjectsRequest, fetchProjectsSuccess, fetchProjectsFailure 
 export const projectsReducer = projectsSlice.reducer;
 
 export const selectProjectsState = (state) => state.projects;
+export const selectLoading = state => selectProjectsState(state).loading;
+export const selectError = state => selectProjectsState(state).error;
 export const selectProjects = (state) => selectProjectsState(state).projects;
