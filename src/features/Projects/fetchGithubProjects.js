@@ -1,11 +1,11 @@
-export const fetchGithubRepos = async () => {
+export const fetchGithubProjects = async () => {
     const response = await fetch("https://api.github.com/users/Code-Timothy/repos");
 
     if (!response.ok) {
         throw new Error(response.statusText);
     }
 
-    const repos = await response.json();
+    const projects = await response.json();
 
-    return repos;
+    return projects;
 };
