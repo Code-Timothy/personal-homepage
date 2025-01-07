@@ -25,3 +25,6 @@ const projectsSlice = createSlice({
 
 export const { fetchProjectsRequest, fetchProjectsSuccess, fetchProjectsFailure } = projectsSlice.actions;
 export const projectsReducer = projectsSlice.reducer;
+
+export const selectProjectsState = (state) => state.projects;
+export const selectProjects = (state) => selectProjectsState(state).projects;
