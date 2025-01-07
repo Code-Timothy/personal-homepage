@@ -11,6 +11,7 @@ export const Wrapper = styled.div`
 export const StyledTile = styled.div`
     background: ${({ theme }) => theme.color.white};
     border: 6px solid rgb(209, 213, 218, 0.3);
+    min-height: 322px;
     padding: 50px;
     font-size: 18px;
     border-radius: 4px;
