@@ -12,7 +12,6 @@ import {
 
 const Tiles = () => {
     const projects = useSelector(selectProjects);
-    console.log(projects)
     const dispatch = useDispatch();
 
     useEffect(() => {
