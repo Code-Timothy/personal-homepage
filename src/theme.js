@@ -1,7 +1,6 @@
 const colorNames = {
     white: "#FFFFFF",
     whiteLilac: "#FBFBFE",
-    silver: "#CCCCCC",
     lightMist: "#D1D5DA4D",
     lightGrayTransparent: "#D1D5DA1A",
     anakiwa: "#8CC2FF",
@@ -10,11 +9,12 @@ const colorNames = {
     scienceBlue: "#0366D6",
     dodgerBlue: "#2188FF",
     slateGray: "#6E7E91",
+    mercury: "#E5E5E5",
+    silver: "#CCCCCC",
     mineShaft: "#252525",
     darkGrayTransparent: "#363636B8",
     woodSmoke: "#18181B",
 };
-
 const breakpoints = {
     breakpoint: {
         mobile: 480,
@@ -51,6 +51,12 @@ export const lightTheme = {
         header: colorNames.scienceBlue,
         link: colorNames.scienceBlue,
         borderBottom: colorNames.softBlue,
+    },
+    themeButton: {
+        background: colorNames.mercury,
+        text: colorNames.white,
+        border: colorNames.lightMist,
+        iconBackground: colorNames.slateGray,
     },
     divider: colorNames.silver,
     listMarker: colorNames.scienceBlue,
