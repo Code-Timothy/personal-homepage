@@ -20,6 +20,11 @@ export const StyledTile = styled.div`
     padding: 50px;
     font-size: 18px;
     border-radius: 4px;
+    transition: border 0.5s;
+
+    &:hover{
+        border: 6px solid rgb(3, 102, 214, 0.2);
+    };
 
     @media (max-width: ${({ theme }) => theme.breakpoint.tablet}px){
         padding: 24px;
