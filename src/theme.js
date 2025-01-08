@@ -91,6 +91,12 @@ export const darkTheme = {
         link: colorNames.dodgerBlue,
         borderBottom: colorNames.dodgerBlue,
     },
+    themeButton: {
+        background: colorNames.darkGrayTransparent,
+        text: colorNames.mineShaft,
+        border: colorNames.white,
+        iconBackground: colorNames.white,
+    },
     divider: colorNames.lightGrayTransparent,
     listMarker: colorNames.dodgerBlue,
 };
