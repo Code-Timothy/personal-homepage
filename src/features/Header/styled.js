@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { ReactComponent as EnvelopeIcon } from "../../assets/images/envelope.svg";
 
 export const StyledHeader = styled.header`
     display: grid;
@@ -25,14 +26,10 @@ export const MyPhoto = styled.img`
 `;
 
 export const ContactLink = styled.a`
-    text-decoration: none;
-`;
-
-export const HireMeButton = styled.button`
-    display: flex;
-    justify-content: center;
+    display: inline-flex;
     align-items: center;
     gap: 16px;
+    text-decoration: none;
     font-size: 20px;
     color: ${({ theme }) => theme.color.white};
     background: ${({ theme }) => theme.color.scienceBlue};
@@ -48,5 +45,20 @@ export const HireMeButton = styled.button`
         2px 2px 0px 0px ${({ theme }) => theme.color.anakiwa},
         -2px 2px 0px 0px ${({ theme }) => theme.color.anakiwa},
         2px -2px 0px 0px ${({ theme }) => theme.color.anakiwa};
+    };
+
+    @media (max-width: ${({ theme }) => theme.breakpoint.mobile}px){
+        gap: 12px;
+        font-size: 18px;
+    };
+`;
+
+export const Envelope = styled(EnvelopeIcon)`
+    width: 24px;
+    height: 24px;
+
+    @media (max-width: ${({ theme }) => theme.breakpoint.mobile}px){
+        width: 20px;
+        height: 20px;
     };
 `;
