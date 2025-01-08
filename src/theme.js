@@ -1,13 +1,18 @@
 const colorNames = {
     white: "#FFFFFF",
     whiteLilac: "#FBFBFE",
+    mercury: "#E5E5E5",
     silver: "#CCCCCC",
-    anakiwa: "#8CC2FF",
     lightMist: "#D1D5DA4D",
-    slateGray: "#6E7E91",
+    lightGrayTransparent: "#D1D5DA1A",
+    anakiwa: "#8CC2FF",
     softBlue: "#0366D633",
+    scienceBlueTransparent: "#0366D680",
     scienceBlue: "#0366D6",
+    dodgerBlue: "2188FF",
+    slateGray: "#6E7E91",
     mineShaft: "#252525",
+    darkGrayTransparent: "#363636B8",
     woodSmoke: "#18181B",
 };
 
@@ -49,4 +54,36 @@ export const lightTheme = {
         borderBottom: colorNames.softBlue,
     },
     divider: colorNames.silver,
+};
+
+export const darkTheme = {
+    ...breakpoints,
+    background: {
+        main: colorNames.mineShaft,
+        section: colorNames.darkGrayTransparent,
+    },
+    text: {
+        header: colorNames.white,
+        paragraph: colorNames.slateGray,
+        blue: colorNames.scienceBlue,
+        error: colorNames.white,
+    },
+    button: {
+        background: colorNames.dodgerBlue,
+        text: colorNames.white,
+        hover: colorNames.anakiwa,
+    },
+    spinner: {
+        border: colorNames.darkGrayTransparent,
+        borderTop: colorNames.dodgerBlue,
+    },
+    tile: {
+        background: colorNames.darkGrayTransparent,
+        border: colorNames.lightGrayTransparent,
+        hover: colorNames.scienceBlueTransparent,
+        header: colorNames.white,
+        link: colorNames.dodgerBlue,
+        borderBottom: colorNames.dodgerBlue,
+    },
+    divider: colorNames.mercury,
 };
