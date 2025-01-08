@@ -1,4 +1,4 @@
-import { ReactComponent as GithubIcon } from "../../assets/images/githubIcon.svg";
+import { ReactComponent as GithubIcon } from "../../../assets/images/githubIcon.svg";
 import styled from "styled-components";
 
 export const StyledGithubIcon = styled(GithubIcon)`

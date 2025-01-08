@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { ReactComponent as EnvelopeIcon } from "../../assets/images/envelope.svg";
+import { ReactComponent as EnvelopeIcon } from "../../../assets/images/envelope.svg";
 
 export const StyledHeader = styled.header`
     display: grid;

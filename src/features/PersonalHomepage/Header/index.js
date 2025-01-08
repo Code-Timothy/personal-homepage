@@ -1,4 +1,4 @@
-import myPhoto from "../../assets/images/myPhoto.jpeg";
+import myPhoto from "../../../assets/images/myPhoto.jpeg";
 import Content from "../Content";
 import ThemeButton from "./ThemeButton";
 import { StyledHeader, MyPhoto, ContactLink, Envelope } from "./styled";
