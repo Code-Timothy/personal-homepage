@@ -55,9 +55,9 @@ export const Link = styled.a`
 
     &:hover{
         opacity: 85%;
-    }
+    };
 
     &:active{
         opacity: 65%;
-    }
+    };
 `;
