@@ -6,7 +6,7 @@ export const Wrapper = styled.div`
     gap: 24px;
     margin-top: 56px;
 
-    @media (max-width: ${({ theme }) => theme.breakpoint.mobile}px){
+    @media (max-width: ${({ theme }) => theme.breakpoint.tablet}px){
         gap: 16px;
         margin-top: 40px;
     };
@@ -17,7 +17,7 @@ export const SocialIcon = styled.svg`
     height: 48px;
     color: ${({ theme }) => theme.color.mineShaft};
 
-    @media (max-width: ${({ theme }) => theme.breakpoint.mobile}px){
+    @media (max-width: ${({ theme }) => theme.breakpoint.tablet}px){
         width: 32px;
         height: 32px;
     };

@@ -7,7 +7,7 @@ export const Wrapper = styled.div`
     margin-top: 24px;
     color: ${({ theme }) => theme.color.slateGray};
 
-    @media(max-width: ${({ theme }) => theme.breakpoint.mobile}px){
+    @media(max-width: ${({ theme }) => theme.breakpoint.tablet}px){
         grid-template-columns: 1fr;
         gap: 16px;
     };
@@ -21,7 +21,7 @@ export const StyledTile = styled.div`
     font-size: 18px;
     border-radius: 4px;
 
-    @media (max-width: ${({ theme }) => theme.breakpoint.mobile}px){
+    @media (max-width: ${({ theme }) => theme.breakpoint.tablet}px){
         padding: 24px;
         font-size: 14px;
         min-height: 230px;
@@ -33,7 +33,7 @@ export const Title = styled.h3`
     font-size: 24px;
     margin: 0 0 24px 0;
 
-    @media (max-width: ${({ theme }) => theme.breakpoint.mobile}px){
+    @media (max-width: ${({ theme }) => theme.breakpoint.tablet}px){
         font-size: 16px;
     };
 `;

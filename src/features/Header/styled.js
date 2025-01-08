@@ -7,7 +7,7 @@ export const StyledHeader = styled.header`
     gap: 72px;
     margin-top: 120px;
 
-    @media (max-width: ${({ theme }) => theme.breakpoint.mobile}px){
+    @media (max-width: ${({ theme }) => theme.breakpoint.tablet}px){
         grid-template-columns: 1fr;
         gap: 0;
         margin-top: 0;
@@ -19,7 +19,7 @@ export const MyPhoto = styled.img`
     height: 384px;
     border-radius: 50%;
 
-    @media (max-width: ${({ theme }) => theme.breakpoint.mobile}px){
+    @media (max-width: ${({ theme }) => theme.breakpoint.tablet}px){
         width: 200px;
         height: 200px;
     };
@@ -47,7 +47,7 @@ export const ContactLink = styled.a`
         2px -2px 0px 0px ${({ theme }) => theme.color.anakiwa};
     };
 
-    @media (max-width: ${({ theme }) => theme.breakpoint.mobile}px){
+    @media (max-width: ${({ theme }) => theme.breakpoint.tablet}px){
         gap: 12px;
         font-size: 18px;
     };
@@ -57,7 +57,7 @@ export const Envelope = styled(EnvelopeIcon)`
     width: 24px;
     height: 24px;
 
-    @media (max-width: ${({ theme }) => theme.breakpoint.mobile}px){
+    @media (max-width: ${({ theme }) => theme.breakpoint.tablet}px){
         width: 20px;
         height: 20px;
     };

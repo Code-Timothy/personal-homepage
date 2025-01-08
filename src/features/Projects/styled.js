@@ -6,7 +6,7 @@ export const StyledGithubIcon = styled(GithubIcon)`
     width: 40px;
     height: 40px;
 
-    @media (max-width: ${({ theme }) => theme.breakpoint.mobile}px){
+    @media (max-width: ${({ theme }) => theme.breakpoint.tablet}px){
         width: 32px;
         height: 32px;
     };
@@ -15,7 +15,7 @@ export const StyledGithubIcon = styled(GithubIcon)`
 export const Wrapper = styled.section`
     margin-top: 72px;
 
-    @media (max-width: ${({ theme }) => theme.breakpoint.mobile}px){
+    @media (max-width: ${({ theme }) => theme.breakpoint.tablet}px){
         margin-top: 48px;
     };
 `;
@@ -31,7 +31,7 @@ export const Title = styled.h2`
     font-weight: 900;
     margin: 10px 0;
 
-    @media (max-width: ${({ theme }) => theme.breakpoint.mobile}px){
+    @media (max-width: ${({ theme }) => theme.breakpoint.tablet}px){
         font-size: 18px;
     };
 `;
@@ -40,7 +40,7 @@ export const Subtitle = styled.p`
     font-size: 20px;
     margin: 0;
 
-    @media (max-width: ${({ theme }) => theme.breakpoint.mobile}px){
+    @media (max-width: ${({ theme }) => theme.breakpoint.tablet}px){
         font-size: 16px;
     };
 `;

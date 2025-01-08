@@ -9,9 +9,13 @@ export const List = styled.ul`
     padding: 32px 0 0 0;
     list-style-position: inside;
 
+    @media (max-width: ${({ theme }) => theme.breakpoint.tablet}px){
+        grid-template-columns: 1fr 1fr;
+        padding: 25px 0 0 0;
+    };
+
     @media(max-width: ${({ theme }) => theme.breakpoint.mobile}px){
         grid-template-columns: 1fr;
-        padding: 25px 0 0 0;
     };
 `;
 
@@ -23,7 +27,7 @@ export const Item = styled.li`
         color: ${({ theme }) => theme.color.scienceBlue};
     }
 
-    @media (max-width: ${({ theme }) => theme.breakpoint.mobile}px){
+    @media (max-width: ${({ theme }) => theme.breakpoint.tablet}px){
         font-size: 14px;
     };
 `;
