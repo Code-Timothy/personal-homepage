@@ -9,7 +9,7 @@ export const List = styled.ul`
     padding: 32px 0 0 0;
     list-style-position: inside;
 
-    @media (max-width: ${({ theme }) => theme.breakpoint.tablet}px){
+    @media (max-width: ${({ theme }) => theme.breakpoint.tabletLandscape}px){
         grid-template-columns: 1fr 1fr;
         padding: 20px 0 0 0;
     };
