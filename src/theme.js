@@ -1,7 +1,6 @@
 const colorNames = {
     white: "#FFFFFF",
     whiteLilac: "#FBFBFE",
-    mercury: "#E5E5E5",
     silver: "#CCCCCC",
     lightMist: "#D1D5DA4D",
     lightGrayTransparent: "#D1D5DA1A",
@@ -9,7 +8,7 @@ const colorNames = {
     softBlue: "#0366D633",
     scienceBlueTransparent: "#0366D680",
     scienceBlue: "#0366D6",
-    dodgerBlue: "2188FF",
+    dodgerBlue: "#2188FF",
     slateGray: "#6E7E91",
     mineShaft: "#252525",
     darkGrayTransparent: "#363636B8",
@@ -54,6 +53,7 @@ export const lightTheme = {
         borderBottom: colorNames.softBlue,
     },
     divider: colorNames.silver,
+    listMarker: colorNames.scienceBlue,
 };
 
 export const darkTheme = {
@@ -64,7 +64,7 @@ export const darkTheme = {
     },
     text: {
         header: colorNames.white,
-        paragraph: colorNames.slateGray,
+        paragraph: colorNames.white,
         blue: colorNames.scienceBlue,
         error: colorNames.white,
     },
@@ -85,5 +85,6 @@ export const darkTheme = {
         link: colorNames.dodgerBlue,
         borderBottom: colorNames.dodgerBlue,
     },
-    divider: colorNames.mercury,
+    divider: colorNames.lightGrayTransparent,
+    listMarker: colorNames.dodgerBlue,
 };
