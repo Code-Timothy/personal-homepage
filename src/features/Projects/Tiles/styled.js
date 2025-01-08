@@ -14,7 +14,7 @@ export const Wrapper = styled.div`
 `;
 
 export const StyledTile = styled.div`
-    background: ${({ theme }) => theme.tile.white};
+    background: ${({ theme }) => theme.tile.background};
     border: 6px solid ${({ theme }) => theme.tile.border};
     min-height: 322px;
     padding: 50px;
