@@ -52,4 +52,12 @@ export const Link = styled.a`
     text-decoration: none;
     color: ${({ theme }) => theme.color.scienceBlue};
     border-bottom: 1px solid rgb(3, 102, 214, 0.2);
+
+    &:hover{
+        opacity: 85%;
+    }
+
+    &:active{
+        opacity: 65%;
+    }
 `;
