@@ -2,7 +2,7 @@ import { ReactComponent as GithubIcon } from "../../assets/images/githubIcon.svg
 import styled from "styled-components";
 
 export const StyledGithubIcon = styled(GithubIcon)`
-    color: ${({ theme }) => theme.color.scienceBlue};
+    color: ${({ theme }) => theme.text.blue};
     width: 40px;
     height: 40px;
 

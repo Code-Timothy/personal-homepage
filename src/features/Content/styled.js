@@ -5,7 +5,7 @@ export const Wrapper = styled.div`
 `;
 
 export const Subtitle = styled.h2`
-    color: ${({ theme }) => theme.color.slateGray};
+    color: ${({ theme }) => theme.text.paragraph};
     font-weight: 700;
     font-size: 12px;
     text-transform: uppercase;
@@ -17,7 +17,7 @@ export const Subtitle = styled.h2`
 `;
 
 export const Title = styled.h1`
-    color: ${({ theme }) => theme.color.mineShaft};
+    color: ${({ theme }) => theme.text.header};
     font-weight: 900;
     font-size: 38px;
     margin: 12px 0 35px 0;
@@ -29,7 +29,7 @@ export const Title = styled.h1`
 `;
 
 export const AboutMe = styled.p`
-    color: ${({ theme }) => theme.color.slateGray};
+    color: ${({ theme }) => theme.text.paragraph};
     font-size: 20px;
     font-weight: 400;
     margin-bottom: 32px;

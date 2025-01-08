@@ -15,11 +15,11 @@ export const Wrapper = styled.div`
 export const SocialIcon = styled.svg`
     width: 48px;
     height: 48px;
-    color: ${({ theme }) => theme.color.mineShaft};
+    color: ${({ theme }) => theme.text.header};
     transition: color 0.5s;
 
     &:hover{
-        color: ${({ theme }) => theme.color.scienceBlue};
+        color: ${({ theme }) => theme.text.blue};
     };
 
     @media (max-width: ${({ theme }) => theme.breakpoint.tablet}px){

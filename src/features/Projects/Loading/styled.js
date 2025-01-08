@@ -24,8 +24,8 @@ const spin = keyframes`
 export const Spinner = styled.div`
     width: 160px;
     height: 160px;
-    border: 12px solid rgb(209, 213, 218, 0.3);
-    border-top: 12px solid ${({ theme }) => theme.color.scienceBlue};
+    border: 12px solid ${({ theme }) => theme.spinner.border};
+    border-top: 12px solid ${({ theme }) => theme.spinner.borderTop};
     border-radius: 50%;
     animation: ${spin} 1s linear infinite;
 `;

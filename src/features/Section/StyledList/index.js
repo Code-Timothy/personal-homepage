@@ -20,11 +20,11 @@ export const List = styled.ul`
 `;
 
 export const Item = styled.li`
-    color: ${({ theme }) => theme.color.slateGray};
+    color: ${({ theme }) => theme.text.paragraph};
     font-size: 18px;
 
     &::marker{
-        color: ${({ theme }) => theme.color.scienceBlue};
+        color: ${({ theme }) => theme.text.blue};
     }
 
     @media (max-width: ${({ theme }) => theme.breakpoint.tablet}px){

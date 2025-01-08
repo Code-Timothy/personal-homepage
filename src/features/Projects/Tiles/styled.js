@@ -5,7 +5,7 @@ export const Wrapper = styled.div`
     grid-template-columns: 1fr 1fr;
     gap: 32px;
     margin-top: 24px;
-    color: ${({ theme }) => theme.color.slateGray};
+    color: ${({ theme }) => theme.text.paragraph};
 
     @media(max-width: ${({ theme }) => theme.breakpoint.tablet}px){
         grid-template-columns: 1fr;
@@ -14,8 +14,8 @@ export const Wrapper = styled.div`
 `;
 
 export const StyledTile = styled.div`
-    background: ${({ theme }) => theme.color.white};
-    border: 6px solid rgb(209, 213, 218, 0.3);
+    background: ${({ theme }) => theme.tile.white};
+    border: 6px solid ${({ theme }) => theme.tile.border};
     min-height: 322px;
     padding: 50px;
     font-size: 18px;
@@ -23,7 +23,7 @@ export const StyledTile = styled.div`
     transition: border 0.5s;
 
     &:hover{
-        border: 6px solid rgb(3, 102, 214, 0.2);
+        border: 6px solid ${({ theme }) => theme.tile.hover};
     };
 
     @media (max-width: ${({ theme }) => theme.breakpoint.tablet}px){
@@ -34,7 +34,7 @@ export const StyledTile = styled.div`
 `;
 
 export const Title = styled.h3`
-    color: ${({ theme }) => theme.color.scienceBlue};
+    color: ${({ theme }) => theme.tile.header};
     font-size: 24px;
     margin: 0 0 24px 0;
 
@@ -55,8 +55,8 @@ export const LinksContainer = styled.div`
 
 export const Link = styled.a`
     text-decoration: none;
-    color: ${({ theme }) => theme.color.scienceBlue};
-    border-bottom: 1px solid rgb(3, 102, 214, 0.2);
+    color: ${({ theme }) => theme.tile.link};
+    border-bottom: 1px solid ${({ theme }) => theme.tile.borderBottom};
 
     &:hover{
         opacity: 85%;

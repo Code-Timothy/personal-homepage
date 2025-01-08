@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const StyledSection = styled.section`
-    background: ${({ theme }) => theme.color.white};
+    background: ${({ theme }) => theme.background.section};
     padding: 32px;
     margin-top: 72px;
 
@@ -12,7 +12,7 @@ export const StyledSection = styled.section`
 `;
 
 export const StyledHeader = styled.header`
-    border-bottom: 1px solid ${({ theme }) => theme.color.silver};
+    border-bottom: 1px solid ${({ theme }) => theme.divider};
     padding-bottom: 14px;
 
     @media (max-width: ${({ theme }) => theme.breakpoint.tablet}px){
@@ -21,7 +21,7 @@ export const StyledHeader = styled.header`
 `;
 
 export const Title = styled.h2`
-    color: ${({ theme }) => theme.color.mineShaft};
+    color: ${({ theme }) => theme.text.header};
     font-size: 30px;
     font-weight: 900;
     margin: 0;

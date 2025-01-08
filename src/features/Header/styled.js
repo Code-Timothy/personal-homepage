@@ -31,8 +31,8 @@ export const ContactLink = styled.a`
     gap: 16px;
     text-decoration: none;
     font-size: 20px;
-    color: ${({ theme }) => theme.color.white};
-    background: ${({ theme }) => theme.color.scienceBlue};
+    color: ${({ theme }) => theme.button.text};
+    background: ${({ theme }) => theme.button.background};
     border: none;
     border-radius: 4px;
     padding: 12px 16px;
@@ -41,10 +41,10 @@ export const ContactLink = styled.a`
     &:hover{
         cursor: pointer;
         box-shadow: 
-        -2px -2px 0px 0px ${({ theme }) => theme.color.anakiwa},
-        2px 2px 0px 0px ${({ theme }) => theme.color.anakiwa},
-        -2px 2px 0px 0px ${({ theme }) => theme.color.anakiwa},
-        2px -2px 0px 0px ${({ theme }) => theme.color.anakiwa};
+        -2px -2px 0px 0px ${({ theme }) => theme.button.hover},
+        2px 2px 0px 0px ${({ theme }) => theme.button.hover},
+        -2px 2px 0px 0px ${({ theme }) => theme.button.hover},
+        2px -2px 0px 0px ${({ theme }) => theme.button.hover};
     };
 
     @media (max-width: ${({ theme }) => theme.breakpoint.tablet}px){

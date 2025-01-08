@@ -5,7 +5,7 @@ export const Wrapper = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: ${({ theme }) => theme.color.mineShaft};
+    color: ${({ theme }) => theme.text.header};
     margin-top: 48px;
 `;
 
@@ -20,16 +20,16 @@ export const Title = styled.h3`
 
 export const Text = styled.p`
     font-size: 20px;
-    color: ${({ theme }) => theme.color.woodSmoke};
+    color: ${({ theme }) => theme.text.error};
     text-align: center;
     line-height: 1.4;
     margin: 0 0 32px 0;
 `;
 
 export const Link = styled.a`
-    background: ${({ theme }) => theme.color.scienceBlue};
+    background: ${({ theme }) => theme.button.background};
     text-decoration: none;
-    color: ${({ theme }) => theme.color.white};
+    color: ${({ theme }) => theme.button.text};
     font-size: 20px;
     font-weight: 600;
     padding: 12px 16px;
