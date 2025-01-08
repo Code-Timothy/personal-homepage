@@ -24,7 +24,7 @@ export const Item = styled.li`
     font-size: 18px;
 
     &::marker{
-        color: ${({ theme }) => theme.text.blue};
+        color: ${({ theme }) => theme.listMarker};
     }
 
     @media (max-width: ${({ theme }) => theme.breakpoint.tablet}px){
