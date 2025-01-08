@@ -8,7 +8,7 @@ const ThemeButton = () => {
 
     return (
         <Wrapper>
-            <ThemeText>Dark mode off</ThemeText>
+            <ThemeText>Dark mode {darkTheme ? "on" : "off"}</ThemeText>
             <StyledButton onClick={() => dispatch(toggleTheme())}>
                 <StyledSunIcon $move={darkTheme} />
             </StyledButton>
