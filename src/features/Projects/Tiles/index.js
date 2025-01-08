@@ -20,8 +20,8 @@ const Tiles = () => {
 
     return (
         <Wrapper>
-            {projects.map(project => (
-                <StyledTile>
+            {projects.map((project, index) => (
+                <StyledTile key={index}>
                     <Title>{project.name}</Title>
                     <Description>{project.description}</Description>
                     <LinksContainer>
