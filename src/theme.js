@@ -9,6 +9,7 @@ export const theme = {
         anakiwa: "#8CC2FF",
     },
     breakpoint: {
-        mobile: 767,
+        mobile: 480,
+        tablet: 768,
     },
 };
