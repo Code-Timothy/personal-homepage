@@ -12,11 +12,11 @@ export const StyledSection = styled.section`
 `;
 
 export const StyledHeader = styled.header`
-    border-bottom: 1px solid ${({ theme }) => theme.color.whiteLilac};
+    border-bottom: 1px solid ${({ theme }) => theme.color.silver};
     padding-bottom: 14px;
 
     @media (max-width: ${({ theme }) => theme.breakpoint.tablet}px){
-        padding-bottom: 0;
+        padding-bottom: 12px;
     };
 `;
 
