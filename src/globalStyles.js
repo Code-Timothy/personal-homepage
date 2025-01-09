@@ -12,6 +12,7 @@ const GlobalStyles = createGlobalStyle`
     body {
         font-family: "Inter", serif;
         background: ${({ theme }) => theme.background.main};
+        transition: background 1s, color 1s;
     }
 `;
 
