@@ -13,6 +13,10 @@ export const ThemeText = styled.span`
     font-weight: 700;
     text-transform: uppercase;
     margin-right: 12px;
+
+    @media (max-width: ${({ theme }) => theme.breakpoint.mobile}px){
+        display: none;
+    };
 `;
 
 export const StyledButton = styled.button`
