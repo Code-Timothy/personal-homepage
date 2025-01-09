@@ -24,6 +24,10 @@ export const StyledButton = styled.button`
     background: ${({ theme }) => theme.themeButton.background};
     border: 1px solid ${({ theme }) => theme.themeButton.border};
     border-radius: 20px;
+
+    &:hover{
+        cursor: pointer;
+    };
 `;
 
 export const StyledSunIcon = styled(SunIcon)`
@@ -36,5 +40,5 @@ export const StyledSunIcon = styled(SunIcon)`
  
     ${({ $move }) => $move && css`
         transform: translateX(22px) rotate(180deg);
-    `}
+    `};
 `;
