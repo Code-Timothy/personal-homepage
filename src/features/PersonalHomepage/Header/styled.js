@@ -18,6 +18,11 @@ export const MyPhoto = styled.img`
     height: 384px;
     border-radius: 50%;
 
+    @media (max-width: ${({ theme }) => theme.breakpoint.tabletLandscape}px){
+        width: 300px;
+        height: 300px;
+    };
+
     @media (max-width: ${({ theme }) => theme.breakpoint.tablet}px){
         width: 200px;
         height: 200px;
