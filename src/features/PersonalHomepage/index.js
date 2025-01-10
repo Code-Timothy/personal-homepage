@@ -1,4 +1,4 @@
-import { Container } from "../../common/Container/inedx";
+import { Container } from "../../common/Container";
 import ThemeButton from "./ThemeButton";
 import Header from "./Header";
 import Section from "./Section";
