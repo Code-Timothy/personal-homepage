@@ -1,4 +1,5 @@
 import { Container } from "../../common/Container/inedx";
+import ThemeButton from "./ThemeButton";
 import Header from "./Header";
 import Section from "./Section";
 import SkillsList from "./Section/SkillsList";
@@ -8,6 +9,7 @@ import Footer from "./Footer";
 
 const PersonalHomepage = () => (
     <Container>
+        <ThemeButton />
         <Header />
         <Section
             title="My skillset includes 🛠"
