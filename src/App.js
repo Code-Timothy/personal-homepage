@@ -3,7 +3,7 @@ import { ThemeProvider } from 'styled-components';
 import { lightTheme, darkTheme } from './theme';
 import GlobalStyles from './globalStyles';
 import PersonalHomepage from "./features/PersonalHomepage";
-import { selectDarkTheme } from './features/PersonalHomepage/Header/ThemeButton/themeSlice';
+import { selectDarkTheme } from "./features/PersonalHomepage/ThemeButton/themeSlice";
 
 function App() {
   const theme = useSelector(selectDarkTheme);
