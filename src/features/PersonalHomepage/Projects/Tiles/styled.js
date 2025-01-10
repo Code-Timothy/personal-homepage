@@ -7,7 +7,7 @@ export const Wrapper = styled.div`
     margin-top: 24px;
     color: ${({ theme }) => theme.text.paragraph};
 
-    @media(max-width: ${({ theme }) => theme.breakpoint.tablet}px){
+    @media(max-width: ${({ theme }) => theme.breakpoint.tabletLandscape}px){
         grid-template-columns: 1fr;
         gap: 16px;
     };
