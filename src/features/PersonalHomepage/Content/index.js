@@ -1,8 +1,7 @@
 import { Wrapper, Subtitle, Title, AboutMe, } from "./styled";
 
-const Content = ({ button, subtitle, title, description, additionalContent }) => (
+const Content = ({ subtitle, title, description, additionalContent }) => (
     <Wrapper>
-        {button}
         <Subtitle>{subtitle}</Subtitle>
         <Title>{title}</Title>
         <AboutMe>{description}</AboutMe>
