@@ -5,7 +5,6 @@ export const StyledHeader = styled.header`
     display: grid;
     grid-template-columns: auto 1fr;
     gap: 72px;
-    margin-top: 120px;
 
     @media (max-width: ${({ theme }) => theme.breakpoint.tablet}px){
         grid-template-columns: 1fr;
