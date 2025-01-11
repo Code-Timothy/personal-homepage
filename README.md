@@ -6,6 +6,10 @@ Welcome to my personal homepage — my virtual CV! This is a simple, responsive 
 
 Check out the live demo: [Personal Homepage Demo!](https://code-timothy.github.io/personal-homepage/)
 
+## Preview
+
+![Gif przedstawiający działanie aplikacji](/public/images/howtouse.gif)
+
 ## Technologies Used
 
 This project was created using the following technologies:
