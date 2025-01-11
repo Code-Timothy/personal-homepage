@@ -21,4 +21,5 @@ export const skills = [
     "CSS Grid",
     "Teamwork",
     "Redux-Saga",
+    "Styled-Components",
 ];
