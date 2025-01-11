@@ -9,5 +9,7 @@ export const fetchGithubProjects = async () => {
 
     const projects = await response.json();
 
-    return projects;
+    const filtredProjects = await projects.filter(project => project.name !== "Code-Timothy");
+
+    return filtredProjects;
 };
