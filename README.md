@@ -8,7 +8,7 @@ Check out the live demo: [Personal Homepage Demo!](https://code-timothy.github.i
 
 ## Preview
 
-![Gif przedstawiający działanie aplikacji](/public/images/howtouse.gif)
+![Gif showing the application in action](/public/images/howtouse.gif)
 
 ## Technologies Used
 
@@ -56,17 +56,17 @@ This project was created using the following technologies:
 
 ### Summary:
 
-The **Personal Homepage** project uses modern web technologies that provide performance, easy state management, and seamless integration with external APIs. With tools like **React**, **Redux**, **Redux-Saga**, **Styled Components**, and a solid code organization, the page is responsive, dynamic, and easy to maintain.
+The **Personal Homepage** project uses modern web technologies that provide performance, easy state management, and seamless integration with external APIs. With tools like **React**, **Redux**, **Redux-Saga**, **Styled Components**, and a solid code organization, the page is responsive, dynamic, and easy to maintain. My aim was to create a project that is both visually appealing and functional, while also demonstrating my skills in frontend development.
 
 ## Features
 
-- 👤 **Get to know me**: A section with my profile photo and a brief description about myself.
-- ⚒️ **Skills**: A list of my current technical skills and expertise.
-- 🎯 **Goals**: A list of technologies I plan to learn next and focus on in the future.
-- 📁 **Portfolio**: My personal projects fetched dynamically from the GitHub API.
-- 📬 **Contact**: A section with links to my social media profiles and email for easy contact.
-- 📱💻 **Responsive design**: The website is fully responsive, ensuring a seamless experience across all devices.
-- 🌙🌞 **Theme switch**: You can switch between light and dark modes to personalize your viewing experience.
+- 👤 **About me**: Get to know me through my profile and brief introduction.
+- ⚒️ **Skills**: List of my current technical skills and expertise.
+- 🎯 **Goals**: Technologies I plan to learn and focus on in the future.
+- 📁 **Portfolio**: Dynamic listing of my personal projects fetched from GitHub.
+- 📬 **Contact**: Links to my social media profiles and email.
+- 📱💻 **Responsive design**: Optimized for all devices.
+- 🌙🌞 **Theme switch**: Toggle between light and dark modes for a personalized experience.
 
 
 # Getting Started with Create React App
