@@ -1,5 +1,5 @@
 import myPhoto from "../../../assets/images/myPhoto.jpeg";
-import InfoBlock from "../Content";
+import InfoBlock from "../InfoBlock";
 import AboutMe from "./AboutMe";
 import { StyledHeader, MyPhoto, ContactLink, Envelope } from "./styled";
 
