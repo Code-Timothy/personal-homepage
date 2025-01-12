@@ -9,6 +9,7 @@ const colorNames = {
     scienceBlue: "#0366D6",
     dodgerBlue: "#2188FF",
     slateGray: "#6E7E91",
+    deepOceanNavy: "#090A3305",
     mercury: "#E5E5E5",
     silver: "#CCCCCC",
     mineShaft: "#252525",
@@ -60,6 +61,7 @@ export const lightTheme = {
     },
     divider: colorNames.silver,
     listMarker: colorNames.scienceBlue,
+    boxShadow: colorNames.deepOceanNavy,
 };
 
 export const darkTheme = {
@@ -99,4 +101,5 @@ export const darkTheme = {
     },
     divider: colorNames.lightGrayTransparent,
     listMarker: colorNames.dodgerBlue,
+    boxShadow: colorNames.deepOceanNavy,
 };
