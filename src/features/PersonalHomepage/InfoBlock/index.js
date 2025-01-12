@@ -1,6 +1,6 @@
 import { Wrapper, Subtitle, Title, AboutMe, } from "./styled";
 
-const Content = ({ subtitle, title, description, additionalContent }) => (
+const InfoBlock = ({ subtitle, title, description, additionalContent }) => (
     <Wrapper>
         <Subtitle>{subtitle}</Subtitle>
         <Title>{title}</Title>
@@ -9,4 +9,4 @@ const Content = ({ subtitle, title, description, additionalContent }) => (
     </Wrapper>
 );
 
-export default Content;
+export default InfoBlock;

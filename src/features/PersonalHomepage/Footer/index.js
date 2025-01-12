@@ -1,10 +1,10 @@
-import Content from "../Content";
+import InfoBlock from "../InfoBlock";
 import SocialIcons from "./SocialIcons";
 import { Wrapper, Link } from "./styled";
 
 const Footer = () => (
     <Wrapper>
-        <Content
+        <InfoBlock
             title={<Link href="mailto:timmywojcik@gmail.com">timmywojcik@gmail.com</Link>}
             subtitle="Let's talk!"
             description="I'm always open to taking on exciting new projects whenever I have the time.
