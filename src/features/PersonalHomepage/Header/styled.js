@@ -13,6 +13,11 @@ export const StyledHeader = styled.header`
     };
 `;
 
+export const Text = styled.span`
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+`;
+
 export const MyPhoto = styled.img`
     width: 384px;
     height: 384px;
