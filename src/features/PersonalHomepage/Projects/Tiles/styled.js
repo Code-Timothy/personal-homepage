@@ -20,6 +20,7 @@ export const StyledTile = styled.div`
     padding: 50px;
     font-size: 18px;
     border-radius: 4px;
+    box-shadow: 0px -2px 50px 0px ${({ theme }) => theme.boxShadow};
     transition: border 0.5s;
 
     &:hover{

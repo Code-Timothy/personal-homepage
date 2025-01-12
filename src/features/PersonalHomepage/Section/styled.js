@@ -4,6 +4,7 @@ export const StyledSection = styled.section`
     background: ${({ theme }) => theme.background.section};
     padding: 32px;
     margin-top: 72px;
+    box-shadow: 0px -2px 50px 0px ${({ theme }) => theme.boxShadow};
 
     @media (max-width: ${({ theme }) => theme.breakpoint.tablet}px){
         padding: 16px;
